@@ -1,0 +1,332 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+/*header*/
+header h1
+{
+	font-family:Georgia,"Sans-Serif";
+	font-size:3.8em;
+	float:left;
+	margin-left:50px;
+	margin-top:15px;
+	
+}
+.h
+{
+	color:rgb(230,77,240);
+}
+.o
+{
+	color:red;
+}
+.tel
+{
+	color:green;
+}
+.ag
+{
+	color:#02b8dd;             /*:#ff7a00;*/
+}
+.ency
+{
+	color:purple;              /* #02b8dd;*/
+}
+.hd
+{
+	margin-top:5px;
+}
+
+/* Nav*/
+nav .menu
+{
+	
+	margin-right:200px;
+	margin-top:1px;
+	
+}
+nav ul li
+{
+	float:right;
+	display:inline-block;
+	margin-right:12px;
+	margin-top:50px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:Arial;
+	
+}
+ nav ul a 
+ { 
+    text-decoration:none; 
+	border-radius:3px; 
+	color:#444;
+ } 
+
+nav ul li a:hover
+{
+	background-color:#02b8dd;
+	color:#fff;	
+}
+nav ul li a:active
+{
+	background-color:green;	
+}
+.clear
+{
+	clear:both;
+}
+/*main-image*/
+ #main-image
+{
+	height:500px;
+	margin-top:25px;
+	background-image: url("images/main_image.jpg");
+}
+.sms
+{
+	text-align:center;
+	margin-top:18px;
+}
+
+/*article*/
+
+#hotel1 
+{
+	background-color: #efefef;
+	height:500px;
+}
+
+#hotel1 article
+{
+	height:300px;
+	width:600px;
+	float:left;
+	margin-top:20px;
+	border-radius:5px 5px 5px 5px;
+}
+#hotel1 article:first-child
+{
+	margin-left:40px;
+	margin-right:5px;
+}
+#hotel1 article .ctre p
+{
+	text-align:center;
+	margin-top:310px;
+}
+  /*button*/
+#hotel1  button
+{
+	background-color:purple;
+	height:40px;
+	width:80px;
+	
+}
+#hotel1  button a
+{
+	
+	text-decoration:none;
+	border-radius:10px;
+	color:#fff;
+}
+#hotel1  button:hover
+{
+	background-color:green;
+	
+	
+}
+/*infos*/
+#hotel1 .infos
+{
+   height: 30px;
+   width: 130px;
+   color:#fff;
+   background-color:#ff7a00;
+   display: inline-block;
+   border-radius: 3px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+#hotel1 article  a
+{
+   text-decoration:none;
+}
+#hotel1 article  a:hover
+{
+   background-color:green;
+}
+
+/*footer*/
+footer
+{
+	height:170px;
+	background-color:#444;
+	text-align:center;
+	padding-top:50px;
+}
+footer button
+{
+	float:right;
+	display:inline;
+	margin-right:12px;
+}
+.mg
+{
+	font-weight:bold;
+	font-size:1.5em;
+	color:white;
+}
+.hdf
+{
+	font-family:Georgia,"Sans-Serif";
+	font-size:2.5em;
+}
+.img
+{
+	height:20px;
+	width:60px;
+}
+/*Register*/
+#rghd nav
+{
+	width:100%;
+	height:70px;
+	background-color:purple;
+	
+}
+#rghd nav .menu
+{
+	text-align:right;
+	padding-top:15px;
+	margin-right:20px;
+}
+.oubli
+{
+	margin-right:120px;
+	color:white;
+	text-decoration:none;
+	margin-top:15px;
+}
+form fieldset   
+{
+text-align:center;
+}
+.registre h1
+{
+	font-size:3.0em;
+	font-weight:bold;
+}
+.champs
+{
+	font-family:Sans-Serif;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#form input[type="text"]
+{
+	font-family:Cursive;
+	font-size:1.3em;
+	width:15.4em;
+	border-radius:5px;
+	border:1px solid #444;
+}
+#form input[type="password"]
+{
+	font-family:Cursive;
+	font-size:1.3em;
+	width:15.4em;
+	border-radius:5px;
+	border:1px solid #444;
+}
+#form input[type="submit"]
+{
+	
+	font-size:1.3em;
+	width:6.4em;
+	border-radius:5px;
+	border:1px solid #444;
+}
+ 
+#rghd input[type="password"]
+{
+	font-family:Cursive;
+	font-size:1.3em;
+	width:10.4em;
+	border:1px solid #444;
+}
+#rghd input[type="text"]
+{
+	font-family:Cursive;
+	font-size:1.3em;
+	width:12.4em;
+	border:1px solid #444;
+}
+#rghd input[type="submit"]
+{
+	font-size:1.0em;
+	width:6.4em;
+	border:1px solid #444;
+}
+#rghd input[type="submit"]:hover
+{
+	background-color:green;
+}
+#form input[type="submit"]:hover
+{
+	background-color:green;
+}
+/*select*/
+.select
+{
+	width:10.4em;
+	border:1px solid #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
